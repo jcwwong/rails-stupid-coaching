@@ -1,0 +1,14 @@
+<h1>Stupid Coaching</h1>
+
+<div class="banner white-background">
+  <p class="bold"><%=params[:answer]%></p>
+  <p>-You</p>
+</div>
+
+<div class="banner yellow-background">
+  <p class="bold"><%=@answer%></p>
+  <p>-Your Coach</p>
+</div>
+
+
+<p class ="margin-10 link-style"><%= link_to "Ask another question", ask_path %></p>

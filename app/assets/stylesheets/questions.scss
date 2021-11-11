@@ -1,0 +1,50 @@
+// Place all the styles related to the questions controller here.
+ $gray: #F4F4F4;
+ $yellow: #f0e6bc;
+ $white: #edede9;
+
+ body {
+   background: $gray; // Using this variable
+   font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+ }
+
+ h1 {
+   margin: 10px;
+   margin-bottom: 40px;
+   margin-top: 30px;
+ }
+ .banner {
+   border-left-width: 4px;
+   border-left-color: rgb(172, 169, 169);
+   border-left-style: solid;
+   padding: 2px;
+   padding-left: 10px;
+   margin: 10px;
+ }
+
+ .white-background {
+   background: $white;
+   opacity: 80%;
+ }
+ .yellow-background {
+  background: $yellow;
+ }
+
+.bold {
+  font-weight: bold;
+}
+.margin-10 {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  &:hover {
+    color: black;
+  }
+}
+
+
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
